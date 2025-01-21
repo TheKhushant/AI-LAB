@@ -1,0 +1,105 @@
+python : purely oop
+
+
+print(a)
+print(type(a))
+print(type(5))
+
+a will referencing value 5 
+
+a = 5.0
+
+print(a)
+print(type(a))
+print(type(5))
+print(id(a))
+print(id(5))
+a = a+1
+print(id(a))
+print(id(a))
+print(id(6))
+print("_________")
+b = 5
+c = 6
+print(id(b))
+print(id(c))
+
+
+________________
+
+a = 1+2j
+print(type(a))
+print(isinstance(a,complex))
+print(isinstance(5,complex))
+
+5 is obje use to store data
+LIST
+a = [5,10,20,6.0,13.2,54.65,20,88,"khushant"] #non homogenous
+
+print(a)
+print(a[3])
+print(a[0:2])
+print(a[:5])
+print(a[2:5])
+print(a[-1])  #last element print karega
+print(a[-3]) 
+# list are mutable
+a[1] = 1000
+print(a) 
+
+_________
+TUPLE
+t = (5, "Pravin", 5+3j)  #slicing
+print(t)
+print(t[0])
+print(t[:2])
+t[0] = 1000 #cant assign
+print(t)
+
+_______
+STRING
+s = "KHUSHANT WANKHEDE"
+print(s)
+print(s[:3])
+print(s[:5])
+print(s[3:])
+print(s[-6])
+#s[0]='a'        # 'str' object does not support item assignment
+
+_______________
+SET = UNIQue data
+a = {1,5,2,44,2,2}
+print(type(a))
+print(a)
+
+____
+dictonry
+d = {1:'value','key':2}
+print(type(d))
+print(d)
+print(d[1])
+#print(d[2]) error
+
+
+mth oL of pym
+>>> python prompt
+
+
+x= 5
+y = 10
+
+print('x={} & y = {}'.format(x,y))
+
+print('x={0} & y = {1}'.format(x,y))
+print('x={1} & y = {0}'.format(x,y))
+
+________ inpute outoput
+num = input('Enter a number:')
+print(num)
+________ (enter 3 number)
+num1 = int(input('Enter a number 1:'))
+num2 = int(input('Enter a number 2:'))
+num3 = int(input('Enter a number 3:'))
+print(num1+num2+num3)
+
+(the end = first lab of python cAI)
